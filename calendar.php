@@ -88,8 +88,6 @@ $fecha = $dia."-".$month."-".$year;
 $totalMes = date("t", strtotime($fecha));
 $inicia = strftime("%u", strtotime("01-".$month."-".$year));
 
-echo base64_decode("1231232123");
-
 $total = ($inicia + $totalMes - 1);
 ?>
     <div class="d-flex flex-row justify-content-center" style="margin-top: 100px">
